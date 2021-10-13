@@ -8,7 +8,7 @@ const Service = (props) => {
             <img src={img} alt="" />
             <h3>{name}</h3>
             <p>Price: {price}</p>
-            <p>{description}</p>
+            <p className="px-3">{description}</p>
         </div>
     );
 };

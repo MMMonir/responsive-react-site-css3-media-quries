@@ -4,7 +4,7 @@ const Expert = ({expert}) => {
     const {name, img, expertize} = expert;
     return (
         <div className="col-lg-3 col-md-6 col-sm-12">
-            <img src={img} alt="" />
+            <img class="img-fluid" src={img} alt=""/>
             <h3>{name}</h3>
             <h5 className="text-danger">{expertize}</h5>
         </div>

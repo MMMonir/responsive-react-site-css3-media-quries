@@ -30,7 +30,7 @@ const experts = [
 
 const Experts = () => {
     return (
-        <div className="mt-5">
+        <div id="experts" className="mt-5">
             <h2 className="text-primary pb-3">Our experts</h2>
             <div className="row">
                 {
